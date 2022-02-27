@@ -1,0 +1,15 @@
+body {
+    font-family: "Cascadia Mono";
+    background-color: #aaa !important;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+}

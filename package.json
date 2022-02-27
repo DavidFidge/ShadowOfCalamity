@@ -1,0 +1,25 @@
+{
+  "name": "shadowofcalamity",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "predev": "copyfiles --flat src/index/public/* public",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single"
+  },
+  "keywords": [],
+  "author": "David Fidge",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "copyfiles": "^2.3.0",
+    "rollup": "^2.26.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sirv-cli": "^2.0.2"
+  },
+  "dependencies": {
+    "rot-js": "^2.2.0"
+  }
+}
